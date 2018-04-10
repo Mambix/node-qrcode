@@ -53,7 +53,7 @@ QR Code options:
   -m, --mask     Mask pattern (0 - 7)
 
 Renderer options:
-  -t, --type        Output type                  [choices: "png", "svg", "utf8"]
+  -t, --type        Output type                  [choices: "png", "svg", "utf8", "squareTTF", "circleTTF", "donutTTF", "hollowTTF"]
   -w, --width       Image width (px)
   -s, --scale       Scale factor
   -q, --qzone       Quiet zone size
@@ -532,7 +532,7 @@ Text to encode or a list of objects describing segments.
   Default: `utf8`
 
   Output format.<br>
-  Possible values are: `utf8`, `svg`, `terminal`.
+  Possible values are: `utf8`, `svg`, `terminal`, `squareTTF`, `circleTTF`, `donutTTF`, `hollowTTF`.
 
 See [Options](#options) for other settings.
 
