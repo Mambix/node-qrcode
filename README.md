@@ -26,6 +26,7 @@
 - Support for mixed modes
 - Support for chinese, cyrillic, greek and japanese characters
 - Support for multibyte characters (like emojis :smile:)
+- Support for [QRCode TTF](https://fontstruct.com/fontstructions/show/1512368/qrcode-2) for when you need to generate QR code with TTF :wink:
 - Auto generates optimized segments for best data compression and smallest QR Code size
 
 ## Installation
